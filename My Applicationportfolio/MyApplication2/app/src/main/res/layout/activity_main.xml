@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textVName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/saumya_ojha" />
+
+    <TextView
+        android:id="@+id/textVtenthpercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/class_10_92_8" />
+
+    <TextView
+        android:id="@+id/textVtwelthpercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/class_12_90" />
+
+    <TextView
+        android:id="@+id/textVemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/ojhasaumya_lps_gmail_com" />
+
+    <TextView
+        android:id="@+id/textVphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/_8303160990" />
+
+    <TextView
+        android:id="@+id/textVaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/_554_178_k_1_alambagh_lucknow" />
+
+    <TextView
+        android:id="@+id/textVdesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/btech_1_year_ece" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:text="@string/achievements" />
+</LinearLayout>
